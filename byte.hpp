@@ -28,7 +28,7 @@
             static_assert(type_check, "ERROR: Type <T> must be fractional, integeral or character.");
             #endif
             
-            data = static_cast<__int8>(value);
+            data = static_cast<unsigned __int8>(value);
         }
 
         byte(byte& value) {
