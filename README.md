@@ -17,7 +17,8 @@ int main() {
 
     for(int i = 0; i < 16; i++)
         cout << ptr[i] << endl;
-
+    
+    cout << endl << "SIZE OF BYTE: " << sizeof(byte) << endl;
     cin.get();
 }
 ```
