@@ -24,15 +24,12 @@
                 std::is_same<T, __int64>::value ||
                 std::is_same<T, unsigned __int64>::value ||
                 std::is_same<T, float>::value ||
-                std::is_same<T, double>::value;
+                std::is_same<T, double>::value ||
+                std::is_same<T, byte>::value;
             static_assert(type_check, "ERROR: Type <T> must be fractional, integeral or character.");
             #endif
             
             data = static_cast<unsigned __int8>(value);
-        }
-
-        byte(byte& value) {
-            data = value.data;
         }
         
         operator unsigned __int32() {
