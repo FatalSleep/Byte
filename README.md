@@ -1,6 +1,8 @@
 # Byte
 Byte length integer type for C++ to replace __int8.
 
+Compile with `#define __TEMPLATE_DEBUG__` for type debugging when getting/setting data with `byte`.
+
 Works like any other value type.
 ```C++
 #include <iostream>
