@@ -1,6 +1,8 @@
 # Byte
 Byte length integer type for C++ to replace __int8.
 
+***NOTE:*** The `byte` has a built in implicit cast operator for `unsigned __int32`.
+
 Compile with `#define __TEMPLATE_DEBUG__` for type debugging when getting/setting data with `byte`.
 
 Works like any other value type.
