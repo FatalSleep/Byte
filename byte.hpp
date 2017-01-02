@@ -1,8 +1,6 @@
 #ifndef __BYTE_TYPE__
 #define __BYTE_TYPE__
     #include <type_traits>
-    #include <iostream>
-    using namespace std;
 
     struct byte {
     private:
