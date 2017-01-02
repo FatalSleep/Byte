@@ -13,7 +13,7 @@
         
         template<typename T>
         byte(T value) {
-            #ifdef __TEMPLATE_DEBUG__
+            #ifdef _DEBUG
             const bool type_check = std::is_same<T, bool>::value ||
                 std::is_same<T, __int8>::value ||
                 std::is_same<T, unsigned __int8>::value ||
